@@ -6,7 +6,9 @@ Lists are one of 4 built-in data types in Python used to store collections of da
 Lists are created using square brackets:
 
 Example:
+
 thislist = ["apple", "banana", "cherry"]
+
 print(thislist)
 
 List Items
@@ -41,11 +43,7 @@ To determine how many items a list has, use the len() function:
 
 Example:        
 
-thislist = ["apple", "banana", "cherry"]        
-
-=======
-Example:
-thislist = ["apple", "banana", "cherry"]
+thislist = ["apple", "banana", "cherry"]  
 
 print(len(thislist))
 
@@ -55,10 +53,13 @@ List Items - Data Types
 List items can be of any data type:
 
 Example
+
 String, int and boolean data types:
 
 list1 = ["apple", "banana", "cherry"]
+
 list2 = [1, 5, 7, 9, 3]
+
 list3 = [True, False, False]
 
 A list with strings, integers and boolean values:
