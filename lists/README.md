@@ -26,9 +26,12 @@ The list is changeable, meaning that we can change, add, and remove items in a l
 
 Allow Duplicates
 ------------------
-Since lists are indexed, lists can have items with the same value:
+Since lists are indexed, lists can have items with the same value:      
+
 Example:
+
 thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+
 print(thislist)
 
 
@@ -39,6 +42,10 @@ To determine how many items a list has, use the len() function:
 Example:        
 
 thislist = ["apple", "banana", "cherry"]        
+
+=======
+Example:
+thislist = ["apple", "banana", "cherry"]
 
 print(len(thislist))
 
